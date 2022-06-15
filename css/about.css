@@ -1,0 +1,83 @@
+* {
+	  box-sizing: border-box;
+	}
+
+	/* Create two equal columns that floats next to each other */
+	.column {
+	  float: left;
+	  width: 50%;
+	  padding: 10px;
+	}
+
+	/* Clear floats after the columns */
+	.row:after {
+	  content: "";
+	  display: table;
+	  clear: both;
+	}
+
+	/*background-image 1*/
+	.bg-img1{
+		background-image: url(../images/bg2.jpg); 
+		background-size: 100% 100%;
+	}
+
+	/*background-image 2*/
+	.bg-img2{
+		background-image: url(../images/bg1.jpg); 
+		background-size: 100% 100%;
+	}
+
+	/*division 1*/
+	.div1{
+		/*margin: 10px; */
+		padding: 10px; 
+		background-color: black; 
+		opacity: 0.5;
+	}
+
+	/*Profile Background*/
+	.bg1{
+		 display: flex;  
+		 background-color:black; 
+		 opacity: .8;
+		 border-radius: 10px;
+		 /* backdrop filter: blur(5px); */
+		 z-index: -1;
+	}
+	
+	/*Profile Images*/
+	.bg1 .imgP{
+		display: block;
+		width: 100%; 
+		height: auto;
+		opacity: .5;
+	}
+
+	.imgP:hover{
+		opacity: 1;
+	}
+
+	/*paragraph style*/
+	p{
+		font-family: 'Noto Serif', serif;
+		color: white;
+		text-shadow: 2px 2px black;
+	}
+
+	/*header 1 style*/
+	h1{
+		font-family: 'Noto Serif', serif;
+		color: white;
+		text-decoration: underline;
+	}
+
+	h2{
+		font-family: 'Noto Serif', serif;
+	}
+
+	figcaption{
+		font-family: 'Noto Serif', serif;
+		font-size: 12pt;
+		color:white;
+	}

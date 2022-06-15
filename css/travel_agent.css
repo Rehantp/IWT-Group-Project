@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Noto Serif', serif;
+    background-color: #f7f7f7;
+  }
+
+  /* Float four columns side by side */
+  .column {
+    float: left;
+    width: 20%;
+    padding: 0 10px;
+  }
+
+  /* Remove extra left and right margins, due to padding */
+  .row {margin: 0 0;}
+
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    margin: 15px 0 15px 5px;
+    padding: 16px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #f1f1f1f1;
+    /*background-image: url(images/bg4.jpg);*/
+    background-size: 100% 100%;
+  }
+
+  .card:hover{
+    border: 1px solid #777;
+  }
+
+  /*Profile Images*/
+  .imgP{
+    display: block;
+    width: 100%; 
+    height: 250px;
+    opacity: 1;
+  }
+
+  .imgP:hover{
+    opacity: 1;
+  }
+
+  .ta-bg1{
+    /*background-image: url(images/bg3.jpg);
+    background-size: cover;
+    padding: 50px;
+    color: white;*/
+     position: absolute;
+      bottom: 0;
+      background: rgb(0, 0, 0); /* Fallback color */
+      background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+      color: #f1f1f1;
+      width: 100%;
+      padding: 50px;
+  }
+
+  h3{
+    font-size: 18pt;
+    color: blue;
+  }
+
+  p{
+    font-size: 14pt;
+    font-family: 'Noto Serif', serif !important;
+    text-shadow: 1px 1px black;
+    
+  }
+
+  /*slides styles*/
+  .mySlides {display: none;}
+    
+  img {vertical-align: middle;}
+
+  .slideshow-container {
+      max-width: 1200px;
+      max-inline-size: 100%;
+      position:sticky;
+      margin: auto;
+      z-index:-1;
+    
+  }
+
+  .mySlides .fade {
+    display: none;
+  }
+
+  .dot {
+      height: 15px;
+      width: 15px;
+      margin: 0 0px;
+      background-color: #bbb;
+      border-radius:100%;
+      display: inline-block;
+      transition: background-color 1.0s ease;
+      cursor:pointer;
+  }
+
+  div.hidden {
+    display: none;
+    text-align:center; 
+  }

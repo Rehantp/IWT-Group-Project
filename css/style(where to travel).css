@@ -1,0 +1,141 @@
+*{box-sizing:border-box}
+    .mySlides {display: none;}
+    img {vertical-align: middle;}
+
+.heading{
+    font-size:50px;
+    color: darkblue;
+}
+.slideshow-container {
+    max-width: 1200px;
+    max-inline-size: 100%;
+    position:relative;
+    margin: auto;
+  
+}
+
+.mySlides .fade {
+  display: none;
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 0px;
+    background-color: #bbb;
+    border-radius:100%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    cursor:pointer;
+}
+  
+.active {
+    background-color:rgb(255, 225, 0);
+}
+  
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+    
+}
+
+.fieldset{
+    margin-left:0;
+    margin-right:0;
+    padding-left: 0;
+    padding-right: 0;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 0 10px;
+  }
+
+  .row {margin: 0 0px;}
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+/*
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 15px;
+    }
+  }*/
+
+  
+
+
+
+
+  .button{
+	display:inline-block;
+	padding:8px 25px;
+	background:transparent;
+	outline:none;
+	color:black;
+	text-decoration: none;
+	border:2px solid black;
+	border-radius:20px;
+	font-size:15px;
+	/*font weight:bold;*/
+	cursor:pointer;
+}
+
+.button:hover{
+	border:1px solid black;
+	background:blue;
+	transition:1s;
+}
+
+section{
+    padding:0;
+}
+
+.card{
+    align-content:space-around;
+    padding: 3px 3px;
+    width:100%;
+    height:500%;
+    font-size: 11px;
+    border-style: solid;
+    border-color:burlywood;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+.packages.box-container{
+  display:flex;
+  flex-wrap:wrap;
+  gap:50px;
+}
+
+
+.packages.box-container.box{
+  flex:30rem 30rem 30rem;
+  border-radius:.10px;
+  overflow:hidden;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.packages.box-container.box img{
+  height:100%;
+  width:100%;
+  position:center;
+  object-fit:fill;
+
+} 
+
+.packages.box-container.box h1{
+    font-size:larger;
+  }
+.packages.box-container.box p{
+  font-size:x-small;
+}

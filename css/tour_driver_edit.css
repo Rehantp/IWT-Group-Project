@@ -1,0 +1,65 @@
+		body{
+			background-image: url("../images/new1.jpg");
+		}
+		h1{
+			text-align: center;
+		}
+		.border{
+			box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+			padding: 10px 80px;
+		}
+		.container{
+			font-size : 18px;
+			opacity: 60%;
+			border-collapse : collapse;
+			border-radius :3%; 
+			padding : 30px 50px;
+			border-radius: 6px;
+			background-color: white ;
+		}
+
+		.container2{
+			box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+			width: 100%;
+			padding: 10px 40px;
+			margin: 8px 0;
+			box-sizing: border-box;
+			border-radius: 2px;
+
+		}
+
+		.button1{
+			box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+			border:1px blue;
+			font-size : 18px;
+			color:white;
+			border-radius: 2px;
+			background-color: rgb(27, 107, 160);
+			border-bottom: 2px blue;
+			float: left;
+		}
+	
+
+		.button2{
+			box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+			border:1px red;
+			font-size: 18px;
+			color:white;
+			border-radius: 2px;
+			background-color: rgb(185, 54, 82);
+			border-bottom: 2px red;
+			float: right;
+		}
+
+		.button1:hover{
+			background-color: rgb(15, 2, 92);
+		}
+
+		.button2:hover{
+			background-color: red;
+		}
+		
+		
+		.adjust{
+			padding: 0px 400px;
+		}

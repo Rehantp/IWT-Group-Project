@@ -1,0 +1,107 @@
+*{
+	margin:0;
+	padding:0;
+	font-family:sans-serif;
+}
+
+#hero{
+	height: 100vh;
+	width:100%;
+	background-position:center;
+	background-size:cover;
+	position:relative;
+	background-image:url("./images/Sigiriya/1000_F_322535378_f2I0DBWZpMIUz6DQdFGzBgasc9uE3CKY.jpg");
+	
+}
+
+.text-box{
+	width:50%;
+	color:#fff;
+	position:fixed;
+	top:35%;
+	left:40%;
+	transform:translate(-50%,-50%);
+	text-align:left;
+}
+
+.text-box h1{
+	font-size:32px;
+	align-content: center;
+	color:#fff;
+}
+
+.text-box{
+	margin:50px 5px 5px;
+	font-size:15px;
+	color:#000;
+}
+
+.button{
+	display:inline-block;
+	padding:8px 25px;
+	background:transparent;
+	outline:none;
+	color:#fff;
+	text-decoration: none;
+	border:2px solid #fff;
+	border-radius:20px;
+	font-size:15px;
+	/*font weight:bold;*/
+	cursor:pointer;
+}
+
+.button:hover{
+	border:1px solid #190EDE;
+	background:#190EDE;
+	transition:1s;
+}
+
+.container{
+	width:50%;
+	height:100vh;
+	background:rgba(86,86,86,0.3);
+	backdrop-filter: blur(10px);
+	position:absolute;
+	right:0;
+	top:0;
+}
+
+
+.slider1{
+	display:flex;
+	align-items:center;
+	position:absolute;
+	bottom:50px;
+	left:50px;
+}
+
+
+#prev,#next{
+	width:20px;
+	cursor:pointer;
+}
+
+.preview{
+	display:flex;
+	align-items:center;
+	margin: 0 60px;	
+}
+
+.preview img{
+	width:70px;
+	height:70px;
+	margin:10px 10px;
+	opacity:0.4;
+}
+
+.preview .active{
+	display :block;
+	border: 3px solid #0FC9CF;
+	width:150px;
+	height:80px; 
+	opacity:1;
+}
+
+
+
+
